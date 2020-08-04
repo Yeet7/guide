@@ -177,7 +177,7 @@ const exampleEmbed = new Discord.RichEmbed()
 	.attachFiles(['../assets/discordjs.png'])
 	.setImage('attachment://discordjs.png');
 
-channel.send(exampleEmbed);
+message.channel.send(exampleEmbed);
 ```
 
 </branch>
@@ -189,7 +189,7 @@ const exampleEmbed = new Discord.MessageEmbed()
 	.attachFiles(['../assets/discordjs.png'])
 	.setImage('attachment://discordjs.png');
 
-channel.send(exampleEmbed);
+message.channel.send(exampleEmbed);
 ```
 
 </branch>
